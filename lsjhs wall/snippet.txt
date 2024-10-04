@@ -1,0 +1,14 @@
+<model-viewer src="lsjhs wall-2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.31852874380745017m 0.2738018861320929m 0.3713899358331843m" data-normal="-0.6991794158256499m -1.206523536037015e-7m 0.7149462528649889m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">麗山國中圍牆</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
